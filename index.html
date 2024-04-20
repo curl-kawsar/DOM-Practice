@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <title>DOM Practice</title>
+    </head>
+    <body>
+        <div class="amount-container">
+            <div class="deposite amount-box">
+                <div>
+                    <h1><span id="initialdepo">00</span></h1>
+                    <p>Deposite</p>
+                </div>
+            </div>
+
+            <div class="withdraw amount-box">
+                <div>
+                    <h1><span id="initialwith">00</span></h1>
+                    <p>Withdraw</p>
+                </div>
+            </div>
+            <div class="total amount-box">
+                <div>
+                    <h1><span id="initial-total">00</span></h1>
+                    <p>Total Amount</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="deposit-withdraw-btn-container">
+            <div class="deposit-box depo-with">
+                <input id="depo-input" class="depo-input input-box"
+                    type="number"><br>
+                <button onclick="depositeHandler()" class="btn">Deposit</button>
+            </div>
+            <div class="withdraw-box depo-with">
+                <input id="withdraw-input" class="withdraw-input input-box"
+                    type="number"><br>
+                <button onclick="withdrawHandler()"
+                    class="btn">Withdraw</button>
+            </div>
+        </div>
+
+        <!-- Scriprt -->
+        <script src="script/script.js"></script>
+    </body>
+</html>

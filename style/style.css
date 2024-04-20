@@ -1,0 +1,78 @@
+.amount-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.amount-box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.deposite {
+    background-color: aqua;
+}
+
+.withdraw {
+    background-color: azure;
+}
+
+.total {
+    background-color: bisque;
+}
+
+.deposit-withdraw-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+    margin: 40px;
+    padding: 40px;
+}
+
+.deposit-box {
+    padding: 40px;
+}
+
+.withdraw-box {
+    padding: 40px;
+}
+
+.depo-input,
+.withdraw-input {
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: rebeccapurple;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.depo-with {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+.input-box {
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
